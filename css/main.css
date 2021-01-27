@@ -53,9 +53,7 @@ body {
   grid-area: daniel;
 }
 .card--1::before {
-  content: "";
-  background-image: url(/images/bg-pattern-quotation.svg);
-  background-repeat: no-repeat;
+  content: url("../images/bg-pattern-quotation.svg");
   position: absolute;
   top: 0px;
   right: 45px;
